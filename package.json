@@ -1,0 +1,21 @@
+{
+  "name": "ikobazaar.net-default-theme",
+  "version": "1.0.0",
+  "description": "IkoBazaar.net Default Theme",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASertacAkkaya/ikobazaar.net-default-theme.git"
+  },
+  "author": "ASertacAkkaya",
+  "bugs": {
+    "url": "https://github.com/ASertacAkkaya/ikobazaar.net-default-theme/issues"
+  },
+  "homepage": "https://github.com/ASertacAkkaya/ikobazaar.net-default-theme#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
